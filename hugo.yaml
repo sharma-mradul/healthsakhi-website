@@ -1,6 +1,6 @@
-baseURL: 'https://hugo-landing-sections.demo.vadecodi.net'
+baseURL: 'https://healthsakhi.netlify.app'
 defaultContentLanguage: en
-title: 'Example Site of hugo-simple-sections '
+title: 'HealthSakhi — AI-Powered Digital Health Literacy Platform'
 theme: 'hugo-simple-sections'
 
 disableKinds:
@@ -9,11 +9,13 @@ disableKinds:
 
 params:
   banner: banner.jpg
-  email: info@example.com
+  email: contact@healthsakhi.in
   favicon: favicon.ico
   instagram:
     enabled: False
   logo: logo.png
+
   style:
-    brandColor1: '#43AA60'
-    brandColor2: '#600050'
+    brandColor1: '#1E8E5A'
+    brandColor2: '#0B3C5D'
+
