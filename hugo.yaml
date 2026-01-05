@@ -1,20 +1,19 @@
+baseURL: 'https://hugo-landing-sections.demo.vadecodi.net'
 defaultContentLanguage: en
+title: 'Example Site of hugo-simple-sections '
+theme: 'hugo-simple-sections'
 
-module:
-  hugoVersion:
-    extended: false
-    min: 0.116.0
+disableKinds:
+  - section
+  - taxonomy
 
 params:
-  banner: banner.png
-  email: ''
+  banner: banner.jpg
+  email: info@example.com
   favicon: favicon.ico
   instagram:
     enabled: False
-    tokenURL: ''
-    url: ''
   logo: logo.png
   style:
-    brandColor1: '#1f1f26'
-    brandColor2: '#43AA60'
-    brandColor3: '#ffffff'
+    brandColor1: '#43AA60'
+    brandColor2: '#600050'
